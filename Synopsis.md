@@ -10,5 +10,5 @@ Job =:= ((Work, Explore, Learn) => Option[Expertize]) => Option[(Money, Future[J
 FTW[FP]
 -------
 
---Await--[_]
+~~Await~~[_]
 ------------
