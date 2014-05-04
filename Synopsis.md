@@ -1,7 +1,9 @@
 Le lien improbable entre la Programmation Fonctionnelle et l'Entreprenariat
 ===========================================================================
 Qui: Xavier Tordoir et Andy Petrella
+
 Lieu: Université de Liège, cours de Programmation Fonctionnelle donné par Pr. Gribomont à l'institut de Montéfiore.
+
 Date: Le 8 mai 2014
 
 Intro
@@ -13,15 +15,25 @@ Temps: 5'
 
 Studying =:= Future[Option[Job]]
 --------------------------------
+Rappeler aux étudiants qui semblent l'avoir oublié (comme nous même l'avions oublié à notre époque) que les études servent principalement à avoir un job plus tard. Et si possible, un job intéressant.
+
+Que donc, il serait judicieux de penser dès maintenant quels seraient les domaines dans lesquels ils aimeraient évoluer et donc doivent acquérir les bases.
 
 Temps: 2'
 
 Job =:= (Work => Option[Experience]) => Option[Money]
 -----------------------------------------------------
+Comment est traditionnellement vu un Job...
+
 Temps: 3'
 
-Job =:= ((Work, Explore, Learn) => Option[Expertize]) => Option[(Money, Future[Job])]
+Job =:= ((Work, Explore, Learn) => Option[Expertize]) => Option[(Money, () => Future[Option[Job])]
 -------------------------------------------------------------------------------------
+Comment un Job devrait être perçu aussi bien par les employés, employeurs, indépendants.
+
+Note: Le `() => Future[Option[Job]` exprime la possibilité de changer des job (sans le garantir), et donc lorsqu'on en a déjà un (`Money`).
+
+
 Temps: 5'
 
 
