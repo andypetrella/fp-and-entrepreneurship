@@ -27,7 +27,7 @@ Comment est traditionnellement vu un Job...
 
 Temps: 3'
 
-Job =:= ((Work, Explore, Learn) => Option[Expertize]) => Option[(Money, () => Future[Option[Job])]
+Job =:= ((Work, Explore, Learn) => Option[Expertize]) => Option[(Money, () => Future[Option[Job]])]
 -------------------------------------------------------------------------------------
 Comment un Job devrait être perçu aussi bien par les employés, employeurs, indépendants.
 
@@ -47,7 +47,7 @@ Les raisons de choisir la FP aujourd'hui,
 
 Temps: 10'
 
-Future[Conquier[Future[Divide]]]
+Future[Conquer[Future[Divide]]]
 --------------------------------
 * Lazy eval et async en FP.
 * Distributed computing et data analysis 
