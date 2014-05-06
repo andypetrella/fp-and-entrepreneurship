@@ -96,6 +96,60 @@ Temps: 15'
 
 Temps: 10'
 
+## More data to Process...
+##### Industrial data
+* energy
+* production lines
+* finance
+* transport
+* ...
+
+##### Personal data
+* Internet Era1: few control the content
+* Internet Era2: Lots of end-users feed manually (posts, photo, video...)
+=> Lots of data, not everything is exploited yet
+* Internet Era3: Lots of captors per end user
+=> Lots^Lots of data
+
+###### Why?
+* There is always a time when we regret that we didn't keep that data...
+* Something of value is encoded in data we collect
+* We human need a collaborative "consciousness" to evolve as a society 
+
+## All on the mobile, really?
+* Data can be available from anywhere
+* But in small quantity, network is the bottleneck
+* We keep raw data because more might be extrated in the future
+* Providing content = aggregating distributed data to produce ... smalldata
+
+## IT is a commodity
+* Infrastructure (IaaS): cloud storage, cloud servers...
+* Software (SaaS): user management, social login, product support, online payment, access to data sources
+* Everything done is distributed
+* ...even development
+
+## The tech startup
+* Gathers distributed datasources
+* Calls distributed services
+* Collects raw data
+* Does some aggregation
+* Scales resources and costs
+* Managing distributed resources is a key!
+
+## FP?
+The reason FP might get a global adoption is the distributed environment we face.
+A very complex distribution over threads, cores, servers, datacenters.
+FP describes the result you want, not how you get it
+FP deals with Asynchronous calls (who's waiting?)
+What about failure?
+
+## Can we do FP in industry?
+Popular languages with fp and oo
+* javascript ... no types, on a single thread
+* ruby with duck typing, no multi-threading
+* Java 8?
+* scala
+
 ___
 
 Calcul du temps théorique:
