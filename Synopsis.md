@@ -90,7 +90,7 @@ Temps: 15'
 Temps: 15'
 
 ## Spark
-* concept d'RDD
+* concept d'RDD: read-only, partitioned collection of records
 * concept d'un DAG
 * concept du lineage pour l'aspect resilient.
 
